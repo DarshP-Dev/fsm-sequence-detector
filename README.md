@@ -23,6 +23,7 @@ The final circuit was selected based on the design that required the fewest numb
 - Quartus circuit simulation
 
 # Project Structure
+```
 fsm-sequence-detector/
  ├── diagrams/
  │   ├── cost_comparison.png
@@ -43,7 +44,7 @@ fsm-sequence-detector/
  │
  └── simulations/
      └── waveform_gray_code.png
-
+```
 # Circuit Design
 
 The final circuit consists of:
@@ -61,3 +62,4 @@ Waveform simulations were performed in Quartus to verify that the FSM was able t
 # 👨‍💻 Programmer 
 Darsh Patel
 Software Engineering Student - Western University
+
