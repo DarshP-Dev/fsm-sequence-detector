@@ -1,11 +1,11 @@
-# FSM Sequence Detector
+# 🔁 FSM Sequence Detector
 Designed a Finite State Machine sequence detector to detect specific binary sequences in a serial input stream. 
 The circuit was implemented with the use of Intel Quartus Prime and uses Gray code and Reverse Gray Code.
 
-# Project Overview
+# ⚙️ Project Overview
 This project implements a FSM that is able to detect two predetermined binary sequences from a serial input stream.
 
-## Detected Sequences
+## 🔧 Detected Sequences
 - 0001 -> sets output Z = 1
 - 0011 -> set output Z = 0
 
@@ -15,14 +15,14 @@ Two different state encoding techniques were implemented and compared
 
 The final circuit was selected based on the design that required the fewest number of gates, in this case it was the Gray Code State.
 
-# Features
+# 🧩 Features
 - FSM using D Flip-Flops
 - State diagram and State Table
 - Karnaugh Map simplification
 - Logic gate implementation
 - Quartus circuit simulation
 
-# Project Structure
+# 📂 Project Structure
 ```
 fsm-sequence-detector/
  ├── diagrams/
@@ -45,7 +45,7 @@ fsm-sequence-detector/
  └── simulations/
      └── waveform_gray_code.png
 ```
-# Circuit Design
+# ⚡ Circuit Design
 
 The final circuit consists of:
 - D Flip-Flops
@@ -55,11 +55,12 @@ The final circuit consists of:
 
 The logic gates are used to compute the next state functions and determin the output
 
-# Simulation Results
+# 📈 Simulation Results
 Waveform simulations were performed in Quartus to verify that the FSM was able to correctly detect both sequences and update the output accord: 
 ![FSM_Waveform](simulations/waveform_gray_code.png)
 
 # 👨‍💻 Programmer 
 Darsh Patel
 Software Engineering Student - Western University
+
 
